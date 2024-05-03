@@ -2,6 +2,7 @@
     --title-font-size: 1.2rem;
     --title-font-fam: "Beleren Small Caps", "Lucida Console", "Calibri", "Arial";
     --darkest: #10121a;
+    --darkest-trans: #10121ae0;
     --darker: #171a26;
     --darker-trans: #171a26d9;
     --base: #162d3d;
@@ -91,7 +92,7 @@ body {
 }
 
 h1, .h1 {
-	font-family: Roboto Mono,"Beleren Small Caps";
+	font-family: Sigtaarah,"Beleren Small Caps";
 }
 
 /* Login Screen */
@@ -126,7 +127,7 @@ h1, .h1 {
 .css-srjygq {
     color: var(--font-base);
 	background: var(--darker);
-    font-family: Roboto Mono,"Beleren Small Caps";
+    font-family: Sigtaarah,"Beleren Small Caps";
 }
 
 .css-6471wp {
@@ -157,7 +158,7 @@ h1, .h1 {
 }
 
 .css-1bo04y5-panel-title {
-	font-family: Roboto Mono,"Beleren Small Caps";
+	font-family: Sigtaarah,"Beleren Small Caps";
     color: var(--font-base);
     font-size: 13pt;
 }
@@ -367,4 +368,15 @@ h1, .h1 {
 	background-color: var(--font-warning-trans);
 	border: 1px solid var(--font-warning);
 	color: rgb(255, 255, 255);
+}
+pre {
+	background-color: var(--darker);
+    border: 1px solid var(--base);
+}
+.css-xxhtan {
+	background-color:var(--darker);
+}
+.css-1dpkcoi {
+	backdrop-filter: blur(1px);
+	background-color:var(--darkest-trans);
 }
