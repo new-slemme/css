@@ -92,7 +92,7 @@ body {
 }
 
 h1, .h1 {
-	font-family: Sigtaarah,"Beleren Small Caps";
+	font-family: Agave,Sigtaarah,"Beleren Small Caps";
 }
 
 /* Login Screen */
@@ -127,7 +127,7 @@ h1, .h1 {
 .css-srjygq {
     color: var(--font-base);
 	background: var(--darker);
-    font-family: Sigtaarah,"Beleren Small Caps";
+    font-family: Agave,Sigtaarah,"Beleren Small Caps";
 }
 
 .css-6471wp {
@@ -158,7 +158,7 @@ h1, .h1 {
 }
 
 .css-1bo04y5-panel-title {
-	font-family: Sigtaarah,"Beleren Small Caps";
+	font-family: Agave,Sigtaarah,"Beleren Small Caps";
     color: var(--font-base);
     font-size: 13pt;
 }
