@@ -28,6 +28,13 @@
  src: url(https://raw.githack.com/new-slemme/font/main/Old-Tongue-Regular.ttf) ;
 }
 
+    @font-face {
+ font-family: Agave;
+ font-style: normal;
+ font-weight: 400;
+ src: url(https://raw.githack.com/new-slemme/font/main/AgaveNerdFont-Regular.ttf) ;
+}
+
 /* UI */
 
 body {
@@ -38,7 +45,7 @@ body {
 	line-height: 1.57143;
 	font-weight: 400;
 	letter-spacing: 0.01071em;
-	font-family: "Inter", "Helvetica", "Arial", sans-serif;
+	font-family: "Agave","Inter", "Helvetica", "Arial", sans-serif;
 }
 
 .gf-form-label--dashlink, .gf-form-label--variable {
