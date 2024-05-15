@@ -381,3 +381,6 @@ pre {
 	backdrop-filter: blur(1px);
 	background-color:var(--darkest-trans);
 }
+table.dataTable tbody tr {
+	background-color: var(--darker);
+}
