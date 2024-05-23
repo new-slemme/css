@@ -179,6 +179,26 @@ h1, .h1 {
 	background-color: var(--base);
 }
 
+.datatables-wrapper {
+	color: inherit;
+	background-color: var(--darkest);
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+	border-bottom: 1px solid var(--darkest);
+}
+table.dataTable tbody tr {
+	background-color: var(--darker);
+}
+table.dataTable.display tbody tr:hover, table.dataTable.hover tbody tr:hover {
+	background-color: var(--base);
+}
+table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3, table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3 {
+	background-color: var(--darker);
+}
+table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-column.hover tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
+	background-color: var(--base);
+}
+
 /* Panel Dropwdown */
 
 .css-1awwc3e {
