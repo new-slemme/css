@@ -1,4 +1,5 @@
 :root {
+    
     --title-font-size: 1.2rem;
     --title-font-fam: "Beleren Small Caps", "Lucida Console", "Calibri", "Arial";
     --darkest: #10121a;
@@ -8,6 +9,12 @@
     --base: #162d3d;
     --base-trans: #162d3da8;
     --light: #465493;
+
+    --green: #3a6b54;
+    --green-trans: #3a6b54a8;
+    --blue: #1e3a5f;
+    --blue-trans: #1e3a5fa8;
+
     --font-base: #8f99c5;
     --font-base-trans: #8f99c57d;
     --font-highlight: #e55c36;
@@ -17,6 +24,7 @@
     --font-warning: #FF9900;
     --font-warning-trans: #FF9900a8;
     --font-accent: #6e7cb7;
+
     --ara-banner: url("https://i.redd.it/2bvmtpa7z0131.png");
     --ara-logo: url("https://prod.cloud.rockstargames.com/crews/sc/5091/54158502/publish/emblem/emblem_512.png");
     --ara-background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11146cc3-65d1-4759-92dc-1186b2d1e35f/ddy2yb7-2959c1e9-4de7-40e3-8ae3-e321a1e03e66.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzExMTQ2Y2MzLTY1ZDEtNDc1OS05MmRjLTExODZiMmQxZTM1ZlwvZGR5MnliNy0yOTU5YzFlOS00ZGU3LTQwZTMtOGFlMy1lMzIxYTFlMDNlNjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZDirUsbO9rhE9oYLLT6TWhphUaLyD7HBE5jQUXfR3qE");
@@ -28,7 +36,6 @@
  font-weight: 400;
  src: url(https://raw.githack.com/new-slemme/font/main/Old-Tongue-Regular.ttf) ;
 }
-
 
     @font-face {
  font-family: Agave;
@@ -49,6 +56,27 @@ body {
 	letter-spacing: 0.01071em;
 	font-family: "Agave","Inter", "Helvetica", "Arial", sans-serif;
 }
+
+.datatables-wrapper {
+	color: inherit;
+	background-color: var(--darkest);
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+	border-bottom: 1px solid var(--darkest);
+}
+table.dataTable tbody tr {
+	background-color: var(--darker);
+}
+table.dataTable.display tbody tr:hover, table.dataTable.hover tbody tr:hover {
+	background-color: var(--base);
+}
+table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3, table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3 {
+	background-color: var(--darker);
+}
+table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-column.hover tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
+	background-color: var(--base);
+}
+
 
 .gf-form-label--dashlink, .gf-form-label--variable {
 	background: var(--darker);
@@ -71,9 +99,7 @@ body {
 	backdrop-filter: blur(1px);
 }
 
-.css-1j7sh2x-vertical-group {
-	background: var(--darker);
-}
+
 
 /* Settings */
 
@@ -93,7 +119,7 @@ body {
 }
 
 h1, .h1 {
-	font-family: Agave,Sigtaarah,"Beleren Small Caps";
+	font-family: Sigtaarah,"Beleren Small Caps";
 }
 
 /* Login Screen */
@@ -128,7 +154,7 @@ h1, .h1 {
 .css-srjygq {
     color: var(--font-base);
 	background: var(--darker);
-    font-family: Agave,Sigtaarah,"Beleren Small Caps";
+    font-family: Sigtaarah,"Beleren Small Caps";
 }
 
 .css-6471wp {
@@ -159,9 +185,9 @@ h1, .h1 {
 }
 
 .css-1bo04y5-panel-title {
-	font-family: Agave,Sigtaarah,"Beleren Small Caps";
+	font-family: Sigtaarah,"Beleren Small Caps";
     color: var(--font-base);
-    font-size: 10pt;
+    font-size: 13pt;
 }
 
 /* Table */
@@ -176,26 +202,6 @@ h1, .h1 {
 	background-color: var(--base);
 }
 .css-gi55n9-logs-row-details__row:hover {
-	background-color: var(--base);
-}
-
-.datatables-wrapper {
-	color: inherit;
-	background-color: var(--darkest);
-}
-.dataTables_wrapper.no-footer .dataTables_scrollBody {
-	border-bottom: 1px solid var(--darkest);
-}
-table.dataTable tbody tr {
-	background-color: var(--darker);
-}
-table.dataTable.display tbody tr:hover, table.dataTable.hover tbody tr:hover {
-	background-color: var(--base);
-}
-table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3, table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3 {
-	background-color: var(--darker);
-}
-table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-column.hover tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
 	background-color: var(--base);
 }
 
@@ -401,6 +407,86 @@ pre {
 	backdrop-filter: blur(1px);
 	background-color:var(--darkest-trans);
 }
-table.dataTable tbody tr {
+.css-1wz2kp9 {
+	background: rgba(15, 21, 28, 0.61);
+}
+.css-6mvh8y {
+	background: var(--base);
+}
+.css-10eycqt {
+	background: var(--base);
+}
+.css-1kgt9j2 {
+	background-color: var(--darkest);
+}
+.css-hqgomx {
 	background-color: var(--darker);
+}
+.css-19ckerd {
+	background-color: var(--darkest);
+}
+.css-1rkrqeh {
+    background-color: var(--base);
+}
+
+.css-1ls4a2k{
+    background: var(--base-trans);
+    border-color: var(-base);
+}
+.css-1pc10n2:nth-child(2n) {
+	background-color: var(--darkest-trans);
+}
+.css-1pc10n2:nth-child(2n+1) {
+	background-color: var(--darkest);
+}
+.css-e5b7gx:nth-child(2n) {
+	background-color: var(--darkest);
+}
+.css-e5b7gx:nth-child(2n+1) {
+	background-color: var(--darkest-trans);
+}
+.css-10gx9yn {
+	background-color: var(--darkest);
+}
+.css-1cy5fw3 {
+	background-color: var(--darkest-trans);
+}
+.css-wt85jc-call-to-action-card {
+	background-color: var(--darkest-trans);
+}
+.css-1i8hcrs {
+	background-color: var(--darkest-trans);
+}
+.css-1wo02bg {
+	background-color: var(--base);
+}
+.css-i3xiad {
+	background-color: var(--base);
+}
+.css-xefs8f {
+	background-color: var(--base);
+}
+.css-uybsr1 {
+	background-color: var(--base);
+}
+.css-1eovwbh-button {
+	background-color: var(--base);
+}
+.css-1eovwbh-button:hover {
+	background-color: var(--font-danger);
+}
+.css-2ake6p-button {
+	background-color: var(--base);
+}
+.css-2ake6p-button:hover {
+	background-color: var(--font-danger);
+}
+.css-lfg9qp-button {
+	background-color: var(--base);
+}
+.css-lfg9qp-button:hover {
+	background-color: var(--green);
+}
+.css-td06pi-button {
+	background-color: var(--blue);    
 }
