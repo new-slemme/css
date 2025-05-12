@@ -14,6 +14,14 @@
     --green-trans: #3a6b54a8;
     --blue: #1e3a5f;
     --blue-trans: #1e3a5fa8;
+    --red: #A63232;
+    --red-trans: #A63232A8;
+    --purple: #5A3A6B;
+    --purple-trans: #5A3A6Ba8;
+    --orange: #FF6B35;
+    --orange-trans: #FF6B35a8;
+    --yellow: #F2C94C;
+    --yellow: #F2C94Ca8;
 
     --font-base: #8f99c5;
     --font-base-trans: #8f99c57d;
@@ -44,449 +52,102 @@
  src: url(https://raw.githack.com/new-slemme/font/main/AgaveNerdFont-Regular.ttf) ;
 }
 
-/* UI */
-
 body {
-	color: var(--font-base);
-	background-color: var(--darkest);
-	margin: 0px 0px 0.45em;
-	font-size: 1rem;
-	line-height: 1.57143;
-	font-weight: 400;
-	letter-spacing: 0.01071em;
-	font-family: "Agave","Inter", "Helvetica", "Arial", sans-serif;
+    background: var(--darkest);
 }
 
-.datatables-wrapper {
-	color: inherit;
-	background-color: var(--darkest);
+/* Login Page - Login Window */
+/*Greeting*/
+.css-1gmqqtf {
+	font-size: 0px;
 }
-.dataTables_wrapper.no-footer .dataTables_scrollBody {
-	border-bottom: 1px solid var(--darkest);
+/*Window*/
+.css-zml5e7 {
+	background: var(--base-trans);
 }
-table.dataTable tbody tr {
-	background-color: var(--darker);
-}
-table.dataTable.display tbody tr:hover, table.dataTable.hover tbody tr:hover {
-	background-color: var(--base);
-}
-table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3, table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3 {
-	background-color: var(--darker);
-}
-table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-column.hover tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
-	background-color: var(--base);
-}
-
-
-.gf-form-label--dashlink, .gf-form-label--variable {
-	background: var(--darker);
-    color: var(--font-base);
-}
-
-.css-k6ayb6 {
-	background-color: var(--darker) !important;
-}
-.css-1w44sjd {
-	background-color: var(--darker) !important;
-}
-.css-12k6tya {
-	backdrop-filter: blur(1px);
-	background-color: var(--base-trans);
-}
-
-.css-ogdvu6 {
-	background-color: var(--base-trans) !important;
-	backdrop-filter: blur(1px);
-}
-
-
-
-/* Settings */
-
-.css-d65hel-page-inner {
-	padding: 16px;
-	border-radius: 2px;
-	border-color: rgba(204, 204, 220, 0.12) rgba(204, 204, 220, 0.12) currentcolor;
-	background: var(--darker);
-
-}
-.css-14h5mrv-activeTabStyle {
-	background: var(--darker);
-    color: var(--font-accent)
-}
-.css-1n2xyvw {
-	color: var(--font-base-trans);
-}
-
-h1, .h1 {
-	font-family: Sigtaarah,"Beleren Small Caps";
-}
-
-/* Login Screen */
-
-.css-1px3c36 {
+/*Logo*/
+.css-11rd68c {
 	max-width: 200px;
 	content: var(--ara-banner)!important;
     filter: invert(1) hue-rotate(180deg);
     height: 100px !important;
     width: auto !important;
 }
-
-.css-vxdt2o {
-	font-size: 0px;
-}
-
-.css-17taakh::before {
-	background: var(--ara-background) center top no-repeat;
+/* Background */
+.css-re5nto::before {
+	background: var(--darker);
 
     transition: opacity 3s ease-in-out 0s;
 	background-size: cover;
 }
 
-.css-odanoj {
-	transition: opacity 0.5s ease-in-out 0s;
-	background: var(--base-trans);
-}
-
-
-/* Navbar Top */
-
-.css-srjygq {
-    color: var(--font-base);
-	background: var(--darker);
-    font-family: Sigtaarah,"Beleren Small Caps";
-}
-
-.css-6471wp {
-	color: var(--font-base-trans);
-}
-
-.css-ddw7vq {
-	color: var(--font-base);
-}
-
-.css-1gc64oe-input-input {
-	background: var(--darker);
-	color: var(--font-base-trans);
-}
-
-.css-1m01c8l {
-	height: 24px;
+/* Dashboards */
+/* Logo */
+.css-1m12llp {
 	content: var(--ara-logo);
 }
-
-
-
-/* Panel */
-
-.css-ke2n4t-panel-container {
-	background-color: var(--darkest);
-    border: 1px solid var(--base);
+/*Save Dashboard*/
+.css-14k9jnp {
+	background-color:var(--darker-trans) !important;
+    backdrop-filter: blur(2px);
 }
-
-.css-1bo04y5-panel-title {
-	font-family: Sigtaarah,"Beleren Small Caps";
-    color: var(--font-base);
-    font-size: 13pt;
+/*Save Dim*/
+.css-1xcpi7v::before {
+	background-color: var(--darkest-trans) !important;
+    backdrop-filter: blur(2px);
 }
-
-/* Table */
-
-.css-wd74dn-logs-row-logDetailsDefaultCursor:hover {
-	background-color: var(--darker);
+/*Discard Changes*/
+.css-k5saln {
+	background: var(--darker-trans) padding-box;
+	box-shadow:var(--darkest) 0px 8px 24px;
+	border-radius: 20px;
+	border: 1px solid var(--base);
 }
-.css-wd74dn-logs-row-logDetailsDefaultCursor {
-	background-color: var(--darker);
-}
-.css-55pmm7-logs-row:hover {
-	background-color: var(--base);
-}
-.css-gi55n9-logs-row-details__row:hover {
-	background-color: var(--base);
-}
-
-/* Panel Dropwdown */
-
-.css-1awwc3e {
-	background: var(--base);
-	box-shadow: rgb(1, 4, 9) 0px 8px 24px;
-}
-
-/* Search */
-.css-jhe9kq {
-	background: var(--darker);
-	color: var(--font-base);
-	box-shadow: rgb(1, 4, 9) 0px 8px 24px;
-}
-.css-h0bvvy {
-	color: var(--font-accent);
-	background: var(--base);
-}
-.css-1nq3tot {
-	color: var(--font-base);
-}
-
-/* Dasboard View */
-.css-9ahx3u {
-	background: var(--darker);
-}
-.css-evov26 {
-	background: var(--base);
-}
-.css-evov26:hover {
-	background: var(--darkest);
-}
-.css-160qn9s {
-	background: var(--base);
-}
-.css-160qn9s:hover {
-	background: var(--darkest);
-}
-.css-8b29hm-button {
-	background: var(--darker-trans);
-	color: rgb(204, 204, 220);
-}
-.css-wcs5v1 {
-	background: var(--base);
-}
-.css-wcs5v1:hover {
-	background: var(--darkest);
-}
-/* Panel-Editor */
-.css-12u9n2 {
-	background: var(--darker);
-}
-.css-1jxvt75 {
-	background: var(--darker);
-}
-.css-1noy28o {
-	background: var(--darker);
-}
-.gf-form-label {
-	background: var(--darkest);
-}
-.css-is0ysa:hover {
-	background: var(--darkest);
-}
-.css-84y734:hover {
-	background: var(--darkest);
-}
-.panel-options-group__header:hover {
-	background: var(--darkest);
-}
-.css-jengqr:hover {
-	background: var(--darkest);
-}
-.css-14jk0fp-Header {
-	background: var(--base);
-}
-.css-1jppo5u {
-	background: var(--base);
-}
-.css-13nr3ln {
-	background: var(--darker);
-}
-.css-183uyhf-toolbar-button {
-	background: var(--darker);
-}
-.css-4zg1iz-toolbar-button {
-	background: var(--darker);
-}
-.css-16oyx7z {
-	background: var(--darkest);
-}
-.btn-primary, .btn-success {
-	background-color: #1e3e7d;
-	background-image: linear-gradient(180deg,var(--font-danger),var(--font-highlight));
-	border-color: #3d71d9;
-}
-.btn-primary.active, .btn-primary.disabled, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-primary[disabled], .btn-success.active, .btn-success.disabled, .btn-success:active, .btn-success:focus, .btn-success:hover, .btn-success[disabled] {
-	background-color: #1e3e7d;
-	background-image: linear-gradient(180deg,var(--font-highlight),var(--font-highlight));
-	border-color: #3d71d9;
-	transition: opacity 0.5s ease-in-out 0s;
-}
-.css-1gx4o12 input:checked + label {
-	background: var(--font-highlight);
-	border-color: var(--font-highlight-trans);
-}
-.css-1gx4o12 input:checked + label:hover {
-	background: var(--font-highlight);
-	border-color: var(--font-highlight-trans);
-}
-.css-72lnkn-button {
-	background: var(--font-highlight-trans);
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-.css-72lnkn-button:hover {
-	background: var(--font-highlight);
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
-
-/* Alerting */
-.css-v5rl73:nth-child(2n+1) {
-	background-color: var(--base);
-}
-.css-v5rl73:nth-child(2n) {
-	background-color: var(--darker);
-}
-.css-xg17q:hover {
-	background-color: var(--base);
-}
-.css-14xlet9:nth-child(2n+1) {
-	background-color: var(--base);
-}
-.css-14xlet9:nth-child(2n) {
-	background-color: var(--darker);
-}
-.css-yamu2o {
-	background-color: var(--darker);
-}
-.css-12cybrm {
-	background-color: var(--base);
-}
-.css-l82s2j {
-	background-color: var(--darkest);
-}
-.css-1wykv9c {
-	background-color: var(--base);
-}
-.css-uq8kg1 {
-	background-color: var(--darker);
-}
-.css-9nnqt5:nth-child(2n+1) {
-	background-color: var(--base);
-}
-.css-9nnqt5:nth-child(2n) {
-	background-color: var(--darkest);
-}
-.css-14m1btq:nth-child(2n+1) {
-	background-color: var(--base);
-}
-.css-14m1btq:nth-child(2n) {
-	background-color: var(--darker);
-}
-.css-rlpi55 {
-	background-color: var(--font-base-trans);
-    border: 1px solid var(--font-accent);
-}
-.css-11r80di {
-	border-radius: 2px;
-	background-color: var(--font-base-trans);
-    border: 1px solid var(--font-accent);
-	color: white;
-}
-.css-rwsqhs {
-	background-color: var(--font-danger-trans);
-	border: 1px solid var(--font-danger);
-	color: rgb(255, 255, 255);
-}
-.css-18t4osq {
-	background-color: var(--font-danger-trans);
-	border: 1px solid var(--font-danger);
-	color: rgb(255, 255, 255);
-}
-.css-1ng0k9x {
-	background-color: var(--font-warning-trans);
-	border: 1px solid var(--font-warning);
-	color: rgb(255, 255, 255);
-}
-.css-by4xky {
-	background-color: var(--font-warning-trans);
-	border: 1px solid var(--font-warning);
-	color: rgb(255, 255, 255);
-}
-pre {
-	background-color: var(--darker);
-    border: 1px solid var(--base);
-}
-.css-xxhtan {
-	background-color:var(--darker);
-}
-.css-1dpkcoi {
-	backdrop-filter: blur(1px);
+/*Discard Dim*/
+.css-1f7jvx6 {
 	background-color:var(--darkest-trans);
+    backdrop-filter: blur(2px);
 }
-.css-1wz2kp9 {
-	background: rgba(15, 21, 28, 0.61);
+/*Top*/
+.css-1eydfq7 {
+	background:var(--darkest-trans);
+    backdrop-filter: blur(2px);
 }
-.css-6mvh8y {
-	background: var(--base);
+/*Navbar - Top Half (Sidebar Unlocked)*/
+.css-ujugth {
+	background: var(--darker) !important;
 }
-.css-10eycqt {
-	background: var(--base);
+/*Navbar - Top Half (Sidebar Locked)*/
+.css-y8lafl {
+	background: var(--darker) !important;
 }
-.css-1kgt9j2 {
-	background-color: var(--darkest);
+.css-1wjf038{
+	background: var(--darker) !important;
 }
-.css-hqgomx {
+/*Navbar - Bottom Half*/
+.css-15n4to7 {
+	background: var(--darker) !important;
+}
+/*Sidebar - Unlocked*/
+.css-45iwu9 {
+	background-color: var(--darkest-trans);
+}
+/*Sidebar - Locked*/
+.css-c8tdw9 {
 	background-color: var(--darker);
 }
-.css-19ckerd {
-	background-color: var(--darkest);
+/*Sidebar Dim*/
+.css-4ti3wx {
+	background-color: var(--darkest-trans)
 }
-.css-1rkrqeh {
-    background-color: var(--base);
+/*Data Panel*/
+.css-11ijkh2-panel-container {
+	background-color: var(--darker);
 }
-
-.css-1ls4a2k{
-    background: var(--base-trans);
-    border-color: var(-base);
+/*Plugins*/
+.css-1uw8mb6-page-inner {
+	background: var(--darkest);
 }
-.css-1pc10n2:nth-child(2n) {
-	background-color: var(--darkest-trans);
-}
-.css-1pc10n2:nth-child(2n+1) {
-	background-color: var(--darkest);
-}
-.css-e5b7gx:nth-child(2n) {
-	background-color: var(--darkest);
-}
-.css-e5b7gx:nth-child(2n+1) {
-	background-color: var(--darkest-trans);
-}
-.css-10gx9yn {
-	background-color: var(--darkest);
-}
-.css-1cy5fw3 {
-	background-color: var(--darkest-trans);
-}
-.css-wt85jc-call-to-action-card {
-	background-color: var(--darkest-trans);
-}
-.css-1i8hcrs {
-	background-color: var(--darkest-trans);
-}
-.css-1wo02bg {
-	background-color: var(--base);
-}
-.css-i3xiad {
-	background-color: var(--base);
-}
-.css-xefs8f {
-	background-color: var(--base);
-}
-.css-uybsr1 {
-	background-color: var(--base);
-}
-.css-1eovwbh-button {
-	background-color: var(--base);
-}
-.css-1eovwbh-button:hover {
-	background-color: var(--font-danger);
-}
-.css-2ake6p-button {
-	background-color: var(--base);
-}
-.css-2ake6p-button:hover {
-	background-color: var(--font-danger);
-}
-.css-lfg9qp-button {
-	background-color: var(--base);
-}
-.css-lfg9qp-button:hover {
-	background-color: var(--green);
-}
-.css-td06pi-button {
-	background-color: var(--blue);    
+.css-q3qvow {
+	background: var(--darker);
 }
